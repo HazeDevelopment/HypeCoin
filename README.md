@@ -1,64 +1,40 @@
-## HypeCoin
+# HypeCoin
 
+## Building HypeCoin 
 
-### How To Compile
+### On *nix
 
-##### Prerequisites
+Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, and Boost 1.55.
 
-- You need the following packages: boost (1.55 or higher), rocksdb, cmake, git, gcc (4.9 or higher), g++ (4.9 or higher) and make. Most of these should already be installed on your system.
-- For example on Ubuntu: `sudo apt-get install -y build-essential python-dev gcc g++ git cmake libboost-all-dev librocksdb-dev`
-- If you are using Ubuntu and your version of Ubuntu doesn't have librocksdb-dev, you can get it from a ppa instead:
+You may download them from:
+
+* http://gcc.gnu.org/
+* http://www.cmake.org/
+* http://www.boost.org/
+* Alternatively, it may be possible to install them using a package manager.
+
+To build, change to a directory where this file is located, and run `make`. The resulting executables can be found in `build/release/src`.
+
+**Advanced options:**
+
+* Parallel build: run `make -j<number of threads>` instead of `make`.
+* Debug build: run `make build-debug`.
+* Test suite: run `make test-release` to run tests in addition to building. Running `make test-debug` will do the same to the debug version.
+* Building with Clang: it may be possible to use Clang instead of GCC, but this may not work everywhere. To build, run `export CC=clang CXX=clang++` before running `make`.
+
+### On Windows
+Dependencies: MSVC 2013 or later, CMake 2.8.6 or later, and Boost 1.55. You may download them from:
+
+* http://www.microsoft.com/
+* http://www.cmake.org/
+* http://www.boost.org/
+
+To build, change to a directory where this file is located, and run theas commands: 
 ```
-sudo add-apt-repository ppa:ethcore/ethcore -y
-sudo apt-get update
-sudo apt-get install librocksdb-dev
+mkdir build
+cd build
+cmake -G "Visual Studio 12 Win64" ..
 ```
 
-##### Building
-
-- `git clone https://github.com/HazeDevelopment/HypeCoin`
-- `cd HypeCoin`
-- `mkdir build && cd $_`
-- `cmake ..`
-- `make`
-
-#### Mac
-
-##### Prerequisites
-
-- Install [cmake](https://cmake.org/). See [here](https://stackoverflow.com/questions/23849962/cmake-installer-for-mac-fails-to-create-usr-bin-symlinks) if you are unable call `cmake` from the terminal after installing.
-- Install the [boost](http://www.boost.org/) libraries. Either compile boost manually or run `brew install boost`.
-- Install XCode and Developer Tools.
-
-##### Building
-
-- `git clone https://github.com/HazeDevelopment/HypeCoin`
-- `cd HypeCoin`
-- `mkdir build && cd $_`
-- `cmake ..` or `cmake -DBOOST_ROOT=<path_to_boost_install> ..` when building
-  from a specific boost install. If you used brew to install boost, your path is most likely `/usr/local/include/boost.`
-- `make`
-
-The binaries will be in `./src` after compilation is complete.
-
-Run `./src/HypeCoind` to connect to the network and let it sync (it may take a while).
-
-#### Windows 10
-
-##### Prerequisites
-- Install [Visual Studio 2017 Community Edition](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&page=inlineinstall)
-- When installing Visual Studio, it is **required** that you install **Desktop development with C++** and the **VC++ v140 toolchain** when selecting features. The option to install the v140 toolchain can be found by expanding the "Desktop development with C++" node on the right. You will need this for the project to build correctly.
-- Install [Boost 1.59.0](https://sourceforge.net/projects/boost/files/boost-binaries/1.59.0/), ensuring you download the installer for MSVC 14.
-
-##### Building
-
-- From the start menu, open 'x64 Native Tools Command Prompt for vs2017'.
-- `cd <your_HypeCoin_directory>`
-- `mkdir build`
-- `cd build`
-- Set the PATH variable for cmake: ie. `set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%`
-- `cmake -G "Visual Studio 14 Win64" .. -DBOOST_ROOT=C:/local/boost_1_59_0` (Or your boost installed dir.)
-- `MSBuild HypeCoin.sln /p:Configuration=Release /m`
-- If all went well, it will complete successfully, and you will find all your binaries in the '..\build\src\Release' directory.
-- Additionally, a `.sln` file will have been created in the `build` directory. If you wish to open the project in Visual Studio with this, you can.
-
+And then do Build.
+Good luck!
