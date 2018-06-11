@@ -1,5 +1,10 @@
 # HypeCoin
 
+## Why Hypecoin?
+
+To Many Coins have a specific purpose, which in turn makes it hard to decide which one to buy into. With Hypecoin that purpose is limited to your imagination. We have designed a solid, fast and lightweight Currency with low power consumption mining and fast network turnover. What you do with your coin depends on your needs. Do you need a simple decentralised messaging service? Hypecoin has got you covered! Want to send money around the world without ridiculous exchange fees? Hypecoin can do that to! With open source code available to the community Hypecoin has unlimited potential in a fast pace and ever growing Cryptocurrency Market!
+
+
 ## Building HypeCoin 
 
 ### On *nix
