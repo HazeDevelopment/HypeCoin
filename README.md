@@ -5,6 +5,75 @@
 To Many Coins have a specific purpose, which in turn makes it hard to decide which one to buy into. With Hypecoin that purpose is limited to your imagination. We have designed a solid, fast and lightweight Currency with low power consumption mining and fast network turnover. What you do with your coin depends on your needs. Do you need a simple decentralised messaging service? Hypecoin has got you covered! Want to send money around the world without ridiculous exchange fees? Hypecoin can do that to! With open source code available to the community Hypecoin has unlimited potential in a fast pace and ever growing Cryptocurrency Market!
 
 
+
+## Specs
+- **Name:** HypeCoin
+- **Ticker:** HYPE
+- **Total supply:** ~42,000,000,000 HYPE
+- **Algo:** Cryptonight
+- **Type:** PoW
+- **Wallet address prefix:** hyPEcoinZ
+- **Block mine target:** 30 sec.
+- **Maturity:** 40 blocks
+- **Diff. Retarget:** Each block
+- **Block reward:** Ever so slightly decreases over time, ~30 HYPE/block after ~5 years
+- **P2P Port:** 16966
+- **RPC Port:** 16969
+
+
+## Roadmap
+
+HypeCoin is still in it's early stages, we soft launched as a coin for the community on the 10th of June 2018. The project is not yet fully completed yet but as we build a community we gain more Contributers and Developers.
+
+**The next few Months:**
+
+- [x]  Jun 2018 - Build Windows and Linux wallet
+- [ ]  Jun 2018 - Minimal website/landing page - In Progress
+- [ ]  Jun 2018 - Launch first version of GUI Wallet for Windows and Linux - In Progress
+- [ ]  Jun 2018 - Build and launch a Blockchain and Transaction explorer - In Progress
+- [ ]  Jul 2018 - Launch the official mining pool
+- [ ]  Jul 2018 - Better website/landing page
+- [ ]  Jul 2018 - Get listed on an exchange
+
+
+**Year 1**: Develop both the community and the foundation of
+Hypecoin to be a durable and resilient crypto alternative and to
+stand out from the many hundreds of variations.
+
+**Year 2:** Form a Solid Team of Active Developers who are
+invested in the development of the network to begin
+discussion and execution of a HypeNote Algorithm Variation.
+
+**Year 3:** Utilising the HypeNote Algorithm, Redevelop the Core
+Code with an All-In-One GUI Wallet, Miner and Messaging
+System
+
+
+## Whitepaper
+
+HypeCoin is based on CryptoNote so you can check the CryptoNote whitepaper for now. As we add new features we will release a HypeCoin whitepaper.
+
+
+## Pre-mining
+
+No pre-mine has been made for HypeCoin. All coins are available to miners.
+
+
+## Links
+
+**Releases**
+- HypeCoin: https://github.com/HazeDevelopment/HypeCoin
+- HypeCoin Binaries: https://github.com/HazeDevelopment/HypeCoin-Binaries
+
+**Services**
+- Website: http://hypecoin.foundation
+- Pool: {Coming Soon!}
+- Blockchain Explorer: {Coming Soon!}
+
+**Social**
+- Discord: https://discord.gg/r2XW7MS
+
+
 ## Building HypeCoin 
 
 ### On *nix
@@ -43,3 +112,18 @@ cmake -G "Visual Studio 12 Win64" ..
 
 And then do Build.
 Good luck!
+
+
+
+
+## Development & funding
+
+All HypeCoin Development and infrastructure is funded out of pocket by the development team, so if you like the project and would like to help us grow, we have the following addresses for donations:
+
+```
+BTC
+14uK9vfMcynswgbNR6TQuGnceYSsWYM7iN
+
+HYPE
+hyPEcoinZ7R2y4xbdkw7VmAKtXFg8B1WjXUQGWM44ENi37eCSVgoBTaYxNdWNSEHbuJPxpkvnz6gVEuEwyAAGmeQbRajSTx8EeA1tWpB
+```
