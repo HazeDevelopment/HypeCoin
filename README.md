@@ -2,7 +2,7 @@
 
 ## Why Hypecoin?
 
-To Many Coins have a specific purpose, which in turn makes it hard to decide which one to buy into. With Hypecoin that purpose is limited to your imagination. We have designed a solid, fast and lightweight Currency with low power consumption mining and fast network turnover. What you do with your coin depends on your needs. Do you need a simple decentralised messaging service? Hypecoin has got you covered! Want to send money around the world without ridiculous exchange fees? Hypecoin can do that to! With open source code available to the community Hypecoin has unlimited potential in a fast pace and ever growing Cryptocurrency Market!
+Too many Coins have a specific purpose, which in turn makes it hard to decide which one to buy into. With Hypecoin that purpose is limited to your imagination. We have designed a solid, fast and lightweight Currency with low power consumption mining and fast network turnover. What you do with your coin depends on your needs. Do you need a simple decentralised messaging service? Hypecoin has got you covered! Want to send money around the world without ridiculous exchange fees? Hypecoin can do that to! With open source code available to the community Hypecoin has unlimited potential in a fast pace and ever growing Cryptocurrency Market!
 
 
 
@@ -23,7 +23,7 @@ To Many Coins have a specific purpose, which in turn makes it hard to decide whi
 
 ## Roadmap
 
-HypeCoin is still in it's early stages, we soft launched as a coin for the community on the 10th of June 2018. The project is not yet fully completed yet but as we build a community we gain more Contributers and Developers.
+HypeCoin is still in it's early stages, we soft launched as a coin for the community on the 10th of June 2018. The project is not yet fully completed, but as we build a community we gain more Contributers and Developers.
 
 **The next few Months:**
 
@@ -87,7 +87,25 @@ You may download them from:
 * http://www.boost.org/
 * Alternatively, it may be possible to install them using a package manager.
 
-To build, change to a directory where this file is located, and run `make`. The resulting executables can be found in `build/release/src`.
+For Ubuntu run:
+
+```
+sudo apt-get install -y build-essential python-dev gcc g++ git cmake libboost-all-dev librocksdb-dev
+```
+
+If you are using a version of Ubuntu that doesn't have librocksdb-dev, you can get it from a ppa instead:
+
+```
+sudo add-apt-repository ppa:ethcore/ethcore -y
+sudo apt-get update
+sudo apt-get install librocksdb-dev
+```
+
+Once dependencies are met, change directory into the HypeCoin directory where this file is located, and run 
+```
+make
+```
+The resulting executables can be found in `build/release/src`.
 
 **Advanced options:**
 
