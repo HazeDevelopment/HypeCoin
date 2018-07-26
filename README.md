@@ -28,9 +28,9 @@ HypeCoin is still in it's early stages, we soft launched as a coin for the commu
 **The next few Months:**
 
 - [x]  Jun 2018 - Build Windows and Linux wallet
-- [ ]  Jun 2018 - Minimal website/landing page - In Progress
-- [ ]  Jun 2018 - Launch first version of GUI Wallet for Windows and Linux - In Progress
-- [ ]  Jun 2018 - Build and launch a Blockchain and Transaction explorer - In Progress
+- [x]  Jun 2018 - Minimal website/landing page
+- [x]  Jun 2018 - Launch first version of GUI Wallet for Windows, Mac and Linux
+- [x]  Jun 2018 - Build and launch a Blockchain and Transaction explorer
 - [ ]  Jul 2018 - Launch the official mining pool
 - [ ]  Jul 2018 - Better website/landing page
 - [ ]  Jul 2018 - Get listed on an exchange
@@ -68,7 +68,7 @@ No pre-mine has been made for HypeCoin. All coins are available to miners.
 **Services**
 - Website: http://hypecoin.foundation
 - Pool: {Coming Soon!}
-- Blockchain Explorer: {Coming Soon!}
+- Blockchain Explorer: http://hypecoin.foundation/explore
 
 **Social**
 - Discord: https://discord.gg/r2XW7MS
