@@ -949,7 +949,7 @@ bool Core::addTransactionToPool(CachedTransaction&& cachedTransaction) {
   auto transactionHash = cachedTransaction.getTransactionHash();
   if (!transactionPool->pushTransaction(std::move(cachedTransaction), std::move(validatorState))) {
     logger(Logging::DEBUGGING) << "Failed to push transaction " << transactionHash << " to pool, already exists";
-    return false;
+    return NULL;
   }
 
   logger(Logging::DEBUGGING) << "Transaction " << transactionHash << " has been added to pool";
