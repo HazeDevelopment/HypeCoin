@@ -31,7 +31,7 @@ HypeCoin is still in it's early stages, we soft launched as a coin for the commu
 - [x]  Jun 2018 - Minimal website/landing page
 - [x]  Jun 2018 - Launch first version of GUI Wallet for Windows, Mac and Linux
 - [x]  Jun 2018 - Build and launch a Blockchain and Transaction explorer
-- [ ]  Jul 2018 - Launch the official mining pool
+- [x]  Jul 2018 - Launch the official mining pool
 - [ ]  Jul 2018 - Better website/landing page
 - [ ]  Jul 2018 - Get listed on an exchange
 
@@ -67,7 +67,7 @@ No pre-mine has been made for HypeCoin. All coins are available to miners.
 
 **Services**
 - Website: http://hypecoin.foundation
-- Pool: {Coming Soon!}
+- Pool: http://yeahnahdunno/
 - Blockchain Explorer: http://hypecoin.foundation/explore
 
 **Social**
@@ -132,8 +132,6 @@ And then do Build.
 Good luck!
 
 
-
-
 ## Development & funding
 
 All HypeCoin Development and infrastructure is funded out of pocket by the development team, so if you like the project and would like to help us grow, we have the following addresses for donations:
@@ -145,3 +143,9 @@ BTC
 HYPE
 hyPEcoinZ7R2y4xbdkw7VmAKtXFg8B1WjXUQGWM44ENi37eCSVgoBTaYxNdWNSEHbuJPxpkvnz6gVEuEwyAAGmeQbRajSTx8EeA1tWpB
 ```
+
+
+
+## Special Thanks
+
+Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project, TurtleCoin Developers
