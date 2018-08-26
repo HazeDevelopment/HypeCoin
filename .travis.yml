@@ -29,3 +29,11 @@ install:
 script:
     - mkdir build && cd build
     - cmake .. && make
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $TRAVIS_TOKEN
+  keep-history: true
+  on:
+    branch: master
