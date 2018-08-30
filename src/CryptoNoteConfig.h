@@ -161,22 +161,6 @@ const char* const SEED_NODES[] = {
 };
 
 
-struct CheckpointData {
-  uint32_t index;
-  const char* blockId;
-};
-
-const std::initializer_list<CheckpointData> CHECKPOINTS = {
-  {420,"6247d2573f9a8ed050610a13e8640524871581c8d780ef17eeee12d868ec25b6"},
-  {4200,"1e096e21272099e17854ff8071b792f65f165fe04c90b6b53e34fa44d55a9789"},
-  {25000,"62eba44137e7fd57838aaeb26b828dc47ebc828c9c17005f68e572be183a1cd7"},
-  {42000,"c20266a8998a9542996fd0b2fda18eee06e53c9f80f92d1bf16f7a9072a941b3"},
-  {50000,"96e97ae185f39b1e562fcb9ddc6daced3e561003a934144d997f897a11f54a8a"},
-  {75000,"7e16600ed33be6d608a5f5a372e8fcacd223eab511a89fea4345cd269442b674"},
-  {100000,"a95ef01d658184723cba6c4cd6cc51e2d36de9c0cdb1bd887289a5554a58f660"},
-  {120000,"d2e5f1365001e93a27cf5e8791bee8cc4e3a7832423c175e3fda8493d31a3b19"}
-};
-
 } // CryptoNote
 
 #define ALLOW_DEBUG_COMMANDS
