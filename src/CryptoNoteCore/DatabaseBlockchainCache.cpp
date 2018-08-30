@@ -313,6 +313,10 @@ public:
   void increment() {
     ++globalOutputIndex;
   }
+  
+  void decrement() {
+    --globalOutputIndex;
+  }
 
   void advance(difference_type n) {
     assert(n >= -static_cast<difference_type>(globalOutputIndex));
