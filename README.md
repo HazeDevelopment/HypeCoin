@@ -10,7 +10,7 @@ Too many Coins have a specific purpose, which in turn makes it hard to decide wh
 - **Name:** HypeCoin
 - **Ticker:** HYPE
 - **Total supply:** ~42,000,000,000 HYPE
-- **Algo:** Cryptonight
+- **Algo:** Cryptonight-Lite Variant 1 (CN-Lite V7)
 - **Type:** PoW
 - **Wallet address prefix:** hyPEcoinZ
 - **Block mine target:** 30 sec.
@@ -24,17 +24,6 @@ Too many Coins have a specific purpose, which in turn makes it hard to decide wh
 ## Roadmap
 
 HypeCoin is still in it's early stages, we soft launched as a coin for the community on the 10th of June 2018. The project is not yet fully completed, but as we build a community we gain more Contributers and Developers.
-
-**The next few Months:**
-
-- [x]  Jun 2018 - Build Windows and Linux wallet
-- [x]  Jun 2018 - Minimal website/landing page
-- [x]  Jun 2018 - Launch first version of GUI Wallet for Windows, Mac and Linux
-- [x]  Jun 2018 - Build and launch a Blockchain and Transaction explorer
-- [x]  Jul 2018 - Launch the official mining pool
-- [ ]  Jul 2018 - Better website/landing page
-- [ ]  Jul 2018 - Get listed on an exchange
-
 
 **Year 1**: Develop both the community and the foundation of
 Hypecoin to be a durable and resilient crypto alternative and to
@@ -63,12 +52,16 @@ No pre-mine has been made for HypeCoin. All coins are available to miners.
 
 **Releases**
 - HypeCoin: https://github.com/HazeDevelopment/HypeCoin
-- HypeCoin Binaries: https://github.com/HazeDevelopment/HypeCoin-Binaries
+- HypeCoin Binaries: 
+~ Windows - https://github.com/HazeDevelopment/HypeCoin-Windows
+~ Linux - https://github.com/HazeDevelopment/HypeCoin-Linux
 
 **Services**
 - Website: http://hypecoin.foundation
 - Pool: http://yeahnahdunno/
 - Blockchain Explorer: http://hypecoin.foundation/explore
+- Paper Wallet - http://hypecoin.foundation/paper-wallet
+- Online HYPE CPU Miner -  http://hypecoin.foundation/cpu-mining
 
 **Social**
 - Discord: https://discord.gg/r2XW7MS
