@@ -52,13 +52,14 @@ No pre-mine has been made for HypeCoin. All coins are available to miners.
 
 **Releases**
 - HypeCoin: https://github.com/HazeDevelopment/HypeCoin
-- HypeCoin Binaries: 
-~ Windows - https://github.com/HazeDevelopment/HypeCoin-Windows
-~ Linux - https://github.com/HazeDevelopment/HypeCoin-Linux
+- HypeCoin Binaries:
+- Windows - https://github.com/HazeDevelopment/HypeCoin-Windows
+- Linux - https://github.com/HazeDevelopment/HypeCoin-Linux
 
 **Services**
 - Website: http://hypecoin.foundation
 - Pool: http://yeahnahdunno/
+- Mine HYPE for Milestones: (Comming soon!)
 - Blockchain Explorer: http://hypecoin.foundation/explore
 - Paper Wallet - http://hypecoin.foundation/paper-wallet
 - Online HYPE CPU Miner -  http://hypecoin.foundation/cpu-mining
