@@ -1,10 +1,7 @@
 sudo: true
 language: cpp
-compiler: gcc
-    
-env:
-    - CXXFLAGS="-std=gnu++11"
-
+compiler:
+    - gcc
 matrix:
     include:
     - os: linux
@@ -18,22 +15,13 @@ matrix:
       env:
       - MATRIX_EVAL="CC=gcc-4.9 && CXX=g++-4.9
     - os: osx
-
 before_install:
-    - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo add-apt-repository ppa:ethcore/ethcore -y    ; fi
+    - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo add-apt-repository ppa:giskou/librocksdb -y  ; fi
     - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get update -q                            ; fi
-    
-install:
-    - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install librocksdb-dev -y            ; fi
-
+    - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install librocksdb -y                ; fi
 script:
-    - mkdir build && cd build
-    - cmake .. && make
-
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $TRAVIS_TOKEN
-  keep-history: true
-  on:
-    branch: master
+    - export CXXFLAGS="-std=gnu++11"
+    - mkdir build
+    - cd build
+    - cmake ..
+    - make
